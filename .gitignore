@@ -2,3 +2,6 @@
 .clang_complete
 .gcc-flags.json
 .piolibdeps
+main.exe
+makefile.bak1
+makefile.bak2

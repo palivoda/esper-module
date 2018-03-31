@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g", 
+                "src/main.cpp", 
+                "-Wwrite-strings", 
+                //"-Wall", 
+                //"-Wpedantic", 
+                "-o main.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
